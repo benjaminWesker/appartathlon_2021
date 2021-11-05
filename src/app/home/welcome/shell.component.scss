@@ -24,13 +24,13 @@ p strong{
 .line div span {
 
   position: absolute;
-  left: 220px;
+
   z-index: 100;
   background: black;
   height: 20px;
-  width: 110px;
+  width: 100px;
 
-  margin-left: 110px;
+  margin-left: 0px;
  // border-left: 2px solid  white ;
  animation: blink 0.5s linear infinite, type 1.5s linear ;
 }
@@ -65,8 +65,8 @@ p i span{
 }
 
 @keyframes type {
-  from {margin-left: 0px;}
-  to{ margin-left: 110px;}
+  from {margin-left: -100px;}
+  to{ margin-left: 0px;}
 }
 
 @keyframes happend {
