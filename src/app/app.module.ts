@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome/welcome.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ShellComponent } from './home/welcome/shell.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ShellComponent
   ],
   imports: [
     BrowserModule,

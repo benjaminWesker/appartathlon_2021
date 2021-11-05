@@ -9,7 +9,7 @@ export class WelcomeComponent implements OnInit {
 
   isValid : boolean = false;
   password : string = "ours";
-  readPassword : string = "entrez le mot de passe ici ...";
+  readPassword : string = "Entrez le mot de passe afin d'établir la connexion... ";
   constructor() { }
 
   ngOnInit(): void {
@@ -24,6 +24,10 @@ export class WelcomeComponent implements OnInit {
     }
 
 
+  }
+
+  onClick() : void {
+    this.readPassword = "";
   }
 
 }
