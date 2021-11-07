@@ -3,3 +3,27 @@ body{
   background-image: url("./assets/image/wp_world.jpg");
 
 }
+
+
+/* animations */
+@keyframes blink {
+  from { border-left: 2px solid  white ;
+  }
+  to { border-left: 2px solid  black ;}
+}
+
+@keyframes type {
+  from {margin-left: -100px;}
+  to{ margin-left: 0px;}
+}
+
+@keyframes happend {
+  0% {color: black;}
+  75%{color: black;}
+  100%{ color: white}
+}
+
+@keyframes alert {
+  from { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
