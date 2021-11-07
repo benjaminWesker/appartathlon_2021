@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class WelcomeComponent implements OnInit {
 
   isValid : boolean = false;
-  password : string = "ours";
+  password : string = "vendredi";
   readPassword : string = "Entrez le mot de passe afin d'établir la connexion... ";
   constructor() { }
 
@@ -17,7 +17,7 @@ export class WelcomeComponent implements OnInit {
 
   onValid() : void{
     console.log(this.readPassword);
-    if(this.password === this.readPassword){
+    if(this.password === this.readPassword.toLocaleLowerCase()){
       this.isValid = true;
     } else {
       this.isValid = false;

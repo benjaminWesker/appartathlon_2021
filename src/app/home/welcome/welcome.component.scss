@@ -3,20 +3,38 @@
   margin-top: 10px;
 }
 
-h2{
-  color: rgba(219, 39, 0, 0.8);
-  font-size: 15px;
-  animation: alert 1.2s linear infinite ;
-}
 
-.content{
+.box{
   margin-top: 10px;
-  border:2px solid rgb(219, 40, 0);
+
   padding:20px;
   text-align:center;
  // box-shadow: 0 5px 10px rgba(9,0,0,0.5);
   box-shadow: 0 20px 50px rgb(23, 32, 90);
   background: #111845f6;
+    p{
+       color:#00ffe9;
+    }
+
 }
 
 
+.box-alert{
+  border:2px solid rgb(219, 40, 0);
+}
+
+.box-info{
+  border:2px solid #00ffe9;
+}
+
+
+.box-alert h2{
+  color: rgba(219, 39, 0, 0.8);
+  font-size: 15px;
+  animation: alert 1.2s linear infinite ;
+}
+
+.box-info h2{
+  color: rgba(219, 204, 0, 0.8);
+  font-size: 15px;
+}

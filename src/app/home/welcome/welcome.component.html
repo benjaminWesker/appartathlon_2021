@@ -1,4 +1,15 @@
+<div class="container">
+  <div class="box box-info">
+   <h2>Vous êtes sur la piste du trésor, il ne vous reste plus que quelques effort avant de trouver la clé !</h2>
+   <p>L c de st :</p>
+   <p><i>JESU ISLA MIDERO BINSO NCRU SOE</i></p>
+   <p>JES UIS AUS SIUN JO URDEL ASEM AINE</p>
+   <p>Qui suis-je ?</p>
+  </div>
+</div>
+
 <app-shell></app-shell>
+
 
 <div class="container">
 
@@ -12,9 +23,9 @@
 
     </div>
 
-    <div class="content" *ngIf="isValid">
+    <div class="box box-alert" *ngIf="isValid">
       <h2><i class="fas fa-exclamation-triangle"></i> You hacked the system ! </h2>
-      <p style="color:#00ffe9;">Bravo ! <br/>Vous avez piraté le code ! <br/><br/>...un texte pour donner l'indice suivant... </p>
+      <p>Bravo ! <br/>Vous avez piraté le code ! <br/><br/>...un texte pour donner l'indice suivant... </p>
     </div>
   </div>
 </div>
